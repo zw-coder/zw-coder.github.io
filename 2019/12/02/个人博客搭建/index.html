@@ -8,13 +8,13 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>hexo-yilia-livere-github搭建个人博客(本地安装) | 影子的个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一、目的 搭建个人博客，不仅可以获得属于自己的一个博客，而且这个平台可以让自己更多的去整理自己以往学过的知识。 本次搭建博客是使用 hexo-yilia-livere 搭建的个人博客,参考资料来源B站和百度。通过本次整个过程,把我从头到尾遇到的问题给总结出来,下次就不会再犯了。 二、安装 git 工具:官网 https:&#x2F;&#x2F;git-scm.com&#x2F;downloads下载之后点next直到insta">
+  <meta name="description" content="h1 一、目的搭建个人博客，不仅可以获得属于自己的一个博客，而且这个平台可以让自己更多的去整理自己以往学过的知识。 本次搭建博客是使用 hexo-yilia-livere 搭建的个人博客,参考资料来源B站和百度。通过本次整个过程,把我从头到尾遇到的问题给总结出来,下次就不会再犯了。">
 <meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo-yilia-livere-github搭建个人博客(本地安装)">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;02&#x2F;%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA&#x2F;index.html">
 <meta property="og:site_name" content="影子的个人博客">
-<meta property="og:description" content="一、目的 搭建个人博客，不仅可以获得属于自己的一个博客，而且这个平台可以让自己更多的去整理自己以往学过的知识。 本次搭建博客是使用 hexo-yilia-livere 搭建的个人博客,参考资料来源B站和百度。通过本次整个过程,把我从头到尾遇到的问题给总结出来,下次就不会再犯了。 二、安装 git 工具:官网 https:&#x2F;&#x2F;git-scm.com&#x2F;downloads下载之后点next直到insta">
+<meta property="og:description" content="h1 一、目的搭建个人博客，不仅可以获得属于自己的一个博客，而且这个平台可以让自己更多的去整理自己以往学过的知识。 本次搭建博客是使用 hexo-yilia-livere 搭建的个人博客,参考资料来源B站和百度。通过本次整个过程,把我从头到尾遇到的问题给总结出来,下次就不会再犯了。">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;img01&#x2F;1.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;img01&#x2F;2.png">
@@ -26,7 +26,7 @@
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;img01&#x2F;8.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;img01&#x2F;9.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;img01&#x2F;10.png">
-<meta property="og:updated_time" content="2019-12-08T04:26:05.628Z">
+<meta property="og:updated_time" content="2019-12-08T04:39:17.044Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;img01&#x2F;1.png">
   
@@ -192,27 +192,29 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><big>一、目的</big></p>
-<p>搭建个人博客，不仅可以获得属于自己的一个博客，而且这个平台可以让自己更多的去整理自己以往学过的知识。</p>
+        <h1 id="h1-一、目的"><a href="#h1-一、目的" class="headerlink" title="h1 一、目的"></a>h1 一、目的</h1><p>搭建个人博客，不仅可以获得属于自己的一个博客，而且这个平台可以让自己更多的去整理自己以往学过的知识。</p>
 <p>本次搭建博客是使用 hexo-yilia-livere 搭建的个人博客,参考资料来源B站和百度。通过本次整个过程,把我从头到尾遇到的问题给总结出来,下次就不会再犯了。</p>
-<p><big>二、安装</big></p>
-<p><strong>git 工具:</strong><br>官网 <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a><br>下载之后点next直到install.<br><img src="/.com//../../../img01/1.png" alt></p>
-<p>安装完成之后,出现上图即安装完成</p>
-<p><strong>node.js:</strong><br>官网 <a href="https://node.js.org/" target="_blank" rel="noopener">https://node.js.org/</a><br>下载之后点next直到install安装完成<br><img src="/.com//../../../img01/2.png" alt><br>打开cmd,输入node -v,npm -v,出现版本号即安装完成</p>
-<p><strong>cnpm：</strong><br>因为npm镜像下载速度慢,也容易出错,这里我们换成cnpm。<br>用管理员方式打开cmd<br>输入 npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p>
-<p><img src="/.com//../../../img01/3.png" alt></p>
-<p>出现上图即安装完成。</p>
-<p><em>安装hexo</em><br>1、在电脑上新建一个存放博客的文件夹,右键选择 Git Bush 打开</p>
-<p><img src="/.com//../../../img01/4.png" alt><br><img src="/.com//../../../img01/5.png" alt></p>
-<p>2、输入 cnpm install -g hexo-cli</p>
-<p><img src="/.com//../../../img01/6.png" alt></p>
-<p>安装完成之后输入 hexo -v<br>如图即安装完成</p>
-<p><img src="/.com//../../../img01/7.png" alt></p>
-<p>3、初始化hexo<br>输入 hexo init</p>
+<a id="more"></a>
+
+<h1 id="h1-二、安装"><a href="#h1-二、安装" class="headerlink" title="h1 二、安装"></a>h1 二、安装</h1><p>git 工具:<br>官网 <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a><br>下载之后点next直到install.<br>安装完成之后,出现下图即安装完成<br><img src="/.com//../../../img01/1.png" alt></p>
+<h1 id="h2-node-js"><a href="#h2-node-js" class="headerlink" title="h2 node.js:"></a>h2 node.js:</h1><p>官网 <a href="https://node.js.org/" target="_blank" rel="noopener">https://node.js.org/</a><br>下载之后点next直到install安装完成<br>打开cmd,输入node -v,npm -v,出现版本号即安装完成<br><img src="/.com//../../../img01/2.png" alt></p>
+<h1 id="h2-cnpm："><a href="#h2-cnpm：" class="headerlink" title="h2 cnpm："></a>h2 cnpm：</h1><p>因为npm镜像下载速度慢,也容易出错,这里我们换成cnpm。<br>用管理员方式打开cmd<br>输入 npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a><br>出现下图即安装完成。<br><img src="/.com//../../../img01/3.png" alt></p>
+<h1 id="h2-安装hexo"><a href="#h2-安装hexo" class="headerlink" title="h2 安装hexo"></a>h2 安装hexo</h1><ol>
+<li>在电脑上新建一个存放博客的文件夹,右键选择 Git Bush 打开<br><img src="/.com//../../../img01/4.png" alt><br><img src="/.com//../../../img01/5.png" alt></li>
+</ol>
+<ol start="2">
+<li>输入 cnpm install -g hexo-cli<br><img src="/.com//../../../img01/6.png" alt></li>
+</ol>
+<p>安装完成之后输入 hexo -v<br>如图即安装完成<br><img src="/.com//../../../img01/7.png" alt></p>
+<ol start="3">
+<li>初始化hexo<br>输入 hexo init</li>
+</ol>
 <p><img src="/.com//../../../img01/8.png" alt></p>
 <p>hexo初始化成功.</p>
-<p>4、打开 hexo s,在浏览器输入 localhost:4000<br><img src="/.com//../../../img01/9.png" alt><br><img src="/.com//../../../img01/10.png" alt><br>即本地hexo安装完成.</p>
-
+<ol start="4">
+<li>打开 hexo s,在浏览器输入 localhost:4000<br><img src="/.com//../../../img01/9.png" alt><br><img src="/.com//../../../img01/10.png" alt></li>
+</ol>
+<h1 id="h1-本地hexo安装完成"><a href="#h1-本地hexo安装完成" class="headerlink" title="h1             本地hexo安装完成."></a>h1             本地hexo安装完成.</h1>
       
 
       
@@ -225,7 +227,7 @@
             <span class="tooltip-content">
               <span class="tooltip-text">
                 <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你<i class="icon icon-quo-right"></i></p>
                   <div class="reward-box">
                     
                     
